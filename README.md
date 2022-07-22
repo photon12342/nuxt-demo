@@ -2,19 +2,18 @@
 `npm install` 安装依赖包
 `node server/api.js`  启动后台服务，用于本地模拟接口
 
-npm run dev 启动本地开发环境
-- 启动时报错`Warning: Accessing non-existent property 'filename' of module exports inside circular dependency `
+`npm run dev` 启动本地开发环境
+- 启动时报错
+  `Warning: Accessing non-existent property 'filename' of module exports inside circular dependency `
   
   `Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency `
 - 解决：
 在\node_modules\stylus\lib\nodes\index.js 头部添加
-``
-exports.column = null; 
+`exports.column = null; 
 
 exports.filename = null; 
 
-exports.lineno = null; 
-``
+exports.lineno = null; `
 ## 部署
 `npm run build`
 
