@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{1270:function(n,t,c){"use strict";c.r(t);var e={},l=c(31),component=Object(l.a)(e,(function(){var n=this,t=n._self._c;return t("div",[t("h1",[n._v("list page")]),n._v(" "),t("nuxt-child")],1)}),[],!1,null,"4fa0c243",null);t.default=component.exports}}]);

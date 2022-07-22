@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{1268:function(n,t,e){"use strict";e.r(t);var c={created:function(){},methods:{}},o=e(31),component=Object(o.a)(c,(function(){return(0,this._self._c)("div",[this._v("\n  基础表单\n")])}),[],!1,null,"1926c900",null);t.default=component.exports}}]);

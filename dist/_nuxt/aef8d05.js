@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{1273:function(n,t,e){"use strict";e.r(t);var l={},c=e(31),component=Object(c.a)(l,(function(){return(0,this._self._c)("div",[this._v("\n   table-list\n")])}),[],!1,null,"97457138",null);t.default=component.exports}}]);
